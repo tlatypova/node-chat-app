@@ -1,0 +1,1548 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Tanusha\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'body-parser',
+1 verbose cli   '--save' ]
+2 info using npm@4.0.2
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData body-parser
+8 silly fetchNamedPackageData body-parser
+9 silly mapToRegistry name body-parser
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'body-parser',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'body-parser',
+12 silly mapToRegistry   name: 'body-parser',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+14 verbose request uri https://registry.npmjs.org/body-parser
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:04:05 PM
+17 verbose request id e9d7d9b210155ca6
+18 http request GET https://registry.npmjs.org/body-parser
+19 http 200 https://registry.npmjs.org/body-parser
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Sun, 19 Mar 2017 13:53:35 GMT',
+20 verbose headers   etag: 'W/"58ce8d5f-201d2"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '14579',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '55',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-jfk8141-JFK',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1490043843.261968,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Sun, 19 Mar 2017 13:53:35 GMT',
+21 silly get     etag: 'W/"58ce8d5f-201d2"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '14579',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '55',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-jfk8141-JFK',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1490043843.261968,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving body-parser to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+23 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule body-parser@1.17.1 checking installable status
+37 silly cache add args [ 'body-parser', null ]
+38 verbose cache add spec body-parser
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'body-parser',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'body-parser',
+39 silly cache add   name: 'body-parser',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed body-parser@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for body-parser
+42 info addNameTag [ 'body-parser', 'latest' ]
+43 silly mapToRegistry name body-parser
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'body-parser',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'body-parser',
+46 silly mapToRegistry   name: 'body-parser',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+48 verbose addNameTag registry:https://registry.npmjs.org/body-parser not in flight; fetching
+49 verbose get https://registry.npmjs.org/body-parser not expired, no request
+50 silly addNameTag next cb for body-parser with tag latest
+51 silly addNamed body-parser@1.17.1
+52 verbose addNamed "1.17.1" is a plain semver version for body-parser
+53 silly mapToRegistry name body-parser
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'body-parser',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'body-parser',
+56 silly mapToRegistry   name: 'body-parser',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+58 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz',
+59 verbose addRemoteTarball   '75b3bc98ddd6e7e0d8ffe750dfaca5c66993fa47' ]
+60 info retry fetch attempt 1 at 5:04:05 PM
+61 info attempt registry request try #1 at 5:04:05 PM
+62 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz
+63 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz
+64 silly fetchAndShaCheck shasum 75b3bc98ddd6e7e0d8ffe750dfaca5c66993fa47
+65 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\body-parser\-\body-parser-1.17.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for body-parser@1.17.1
+67 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd body-parser@1.17.1
+69 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\body-parser\1.17.1\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\body-parser\1.17.1\package\package.json written
+72 silly fetchNamedPackageData bytes
+73 silly mapToRegistry name bytes
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bytes',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bytes',
+76 silly mapToRegistry   name: 'bytes',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bytes
+78 silly fetchNamedPackageData debug
+79 silly mapToRegistry name debug
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'debug',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'debug',
+82 silly mapToRegistry   name: 'debug',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/debug
+84 silly fetchNamedPackageData http-errors
+85 silly mapToRegistry name http-errors
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'http-errors',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'http-errors',
+88 silly mapToRegistry   name: 'http-errors',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+90 silly fetchNamedPackageData iconv-lite
+91 silly mapToRegistry name iconv-lite
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'iconv-lite',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'iconv-lite',
+94 silly mapToRegistry   name: 'iconv-lite',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+96 silly fetchNamedPackageData qs
+97 silly mapToRegistry name qs
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'qs',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'qs',
+100 silly mapToRegistry   name: 'qs',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/qs
+102 silly fetchNamedPackageData raw-body
+103 silly mapToRegistry name raw-body
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'raw-body',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   escapedName: 'raw-body',
+106 silly mapToRegistry   name: 'raw-body',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+108 verbose request uri https://registry.npmjs.org/bytes
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 5:04:05 PM
+111 http request GET https://registry.npmjs.org/bytes
+112 verbose request uri https://registry.npmjs.org/iconv-lite
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 5:04:05 PM
+115 http request GET https://registry.npmjs.org/iconv-lite
+116 verbose request uri https://registry.npmjs.org/raw-body
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 5:04:05 PM
+119 http request GET https://registry.npmjs.org/raw-body
+120 verbose request uri https://registry.npmjs.org/http-errors
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 5:04:05 PM
+123 verbose etag W/"58c8ba3d-8c4b"
+124 verbose lastModified Wed, 15 Mar 2017 03:51:25 GMT
+125 http request GET https://registry.npmjs.org/http-errors
+126 verbose request uri https://registry.npmjs.org/debug
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 5:04:05 PM
+129 verbose etag W/"58cbbd7a-139cf"
+130 verbose lastModified Fri, 17 Mar 2017 10:42:02 GMT
+131 http request GET https://registry.npmjs.org/debug
+132 verbose request uri https://registry.npmjs.org/qs
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 5:04:05 PM
+135 verbose etag W/"58cacb2c-178bd"
+136 verbose lastModified Thu, 16 Mar 2017 17:28:12 GMT
+137 http request GET https://registry.npmjs.org/qs
+138 http 200 https://registry.npmjs.org/bytes
+139 verbose headers { server: 'nginx/1.10.1',
+139 verbose headers   'content-type': 'application/json',
+139 verbose headers   'last-modified': 'Fri, 06 Jan 2017 17:30:49 GMT',
+139 verbose headers   etag: 'W/"586fd449-4b12"',
+139 verbose headers   'content-encoding': 'gzip',
+139 verbose headers   'cache-control': 'max-age=300',
+139 verbose headers   'content-length': '3628',
+139 verbose headers   'accept-ranges': 'bytes',
+139 verbose headers   date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+139 verbose headers   via: '1.1 varnish',
+139 verbose headers   age: '243',
+139 verbose headers   connection: 'keep-alive',
+139 verbose headers   'x-served-by': 'cache-jfk8141-JFK',
+139 verbose headers   'x-cache': 'HIT',
+139 verbose headers   'x-cache-hits': '12',
+139 verbose headers   'x-timer': 'S1490043843.428008,VS0,VE0',
+139 verbose headers   vary: 'Accept-Encoding' }
+140 silly get cb [ 200,
+140 silly get   { server: 'nginx/1.10.1',
+140 silly get     'content-type': 'application/json',
+140 silly get     'last-modified': 'Fri, 06 Jan 2017 17:30:49 GMT',
+140 silly get     etag: 'W/"586fd449-4b12"',
+140 silly get     'content-encoding': 'gzip',
+140 silly get     'cache-control': 'max-age=300',
+140 silly get     'content-length': '3628',
+140 silly get     'accept-ranges': 'bytes',
+140 silly get     date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     age: '243',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-jfk8141-JFK',
+140 silly get     'x-cache': 'HIT',
+140 silly get     'x-cache-hits': '12',
+140 silly get     'x-timer': 'S1490043843.428008,VS0,VE0',
+140 silly get     vary: 'Accept-Encoding' } ]
+141 verbose get saving bytes to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\bytes\.cache.json
+142 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+143 silly resolveWithNewModule bytes@2.4.0 checking installable status
+144 silly cache add args [ 'bytes@2.4.0', null ]
+145 verbose cache add spec bytes@2.4.0
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: 'bytes@2.4.0',
+146 silly cache add   scope: null,
+146 silly cache add   escapedName: 'bytes',
+146 silly cache add   name: 'bytes',
+146 silly cache add   rawSpec: '2.4.0',
+146 silly cache add   spec: '2.4.0',
+146 silly cache add   type: 'version' }
+147 silly addNamed bytes@2.4.0
+148 verbose addNamed "2.4.0" is a plain semver version for bytes
+149 silly mapToRegistry name bytes
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'bytes',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   escapedName: 'bytes',
+152 silly mapToRegistry   name: 'bytes',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npmjs.org/bytes
+154 verbose addNameVersion registry:https://registry.npmjs.org/bytes not in flight; fetching
+155 verbose get https://registry.npmjs.org/bytes not expired, no request
+156 silly mapToRegistry name bytes
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: 'bytes',
+159 silly mapToRegistry   scope: null,
+159 silly mapToRegistry   escapedName: 'bytes',
+159 silly mapToRegistry   name: 'bytes',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri https://registry.npmjs.org/bytes
+161 verbose addRemoteTarball https://registry.npmjs.org/bytes/-/bytes-2.4.0.tgz not in flight; adding
+162 verbose addRemoteTarball [ 'https://registry.npmjs.org/bytes/-/bytes-2.4.0.tgz',
+162 verbose addRemoteTarball   '7d97196f9d5baf7f6935e25985549edd2a6c2339' ]
+163 info retry fetch attempt 1 at 5:04:05 PM
+164 info attempt registry request try #1 at 5:04:05 PM
+165 http fetch GET https://registry.npmjs.org/bytes/-/bytes-2.4.0.tgz
+166 http fetch 200 https://registry.npmjs.org/bytes/-/bytes-2.4.0.tgz
+167 silly fetchAndShaCheck shasum 7d97196f9d5baf7f6935e25985549edd2a6c2339
+168 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\bytes\-\bytes-2.4.0.tgz not in flight; adding
+169 verbose addTmpTarball already have metadata; skipping unpack for bytes@2.4.0
+170 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+171 silly cache afterAdd bytes@2.4.0
+172 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\bytes\2.4.0\package\package.json not in flight; writing
+173 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+174 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\bytes\2.4.0\package\package.json written
+175 http 200 https://registry.npmjs.org/raw-body
+176 verbose headers { server: 'nginx/1.10.1',
+176 verbose headers   'content-type': 'application/json',
+176 verbose headers   'last-modified': 'Mon, 13 Feb 2017 08:34:04 GMT',
+176 verbose headers   etag: 'W/"58a16f7c-dd60"',
+176 verbose headers   'content-encoding': 'gzip',
+176 verbose headers   'cache-control': 'max-age=300',
+176 verbose headers   'content-length': '6680',
+176 verbose headers   'accept-ranges': 'bytes',
+176 verbose headers   date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+176 verbose headers   via: '1.1 varnish',
+176 verbose headers   age: '33',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'x-served-by': 'cache-jfk8138-JFK',
+176 verbose headers   'x-cache': 'HIT',
+176 verbose headers   'x-cache-hits': '2',
+176 verbose headers   'x-timer': 'S1490043843.475839,VS0,VE0',
+176 verbose headers   vary: 'Accept-Encoding' }
+177 silly get cb [ 200,
+177 silly get   { server: 'nginx/1.10.1',
+177 silly get     'content-type': 'application/json',
+177 silly get     'last-modified': 'Mon, 13 Feb 2017 08:34:04 GMT',
+177 silly get     etag: 'W/"58a16f7c-dd60"',
+177 silly get     'content-encoding': 'gzip',
+177 silly get     'cache-control': 'max-age=300',
+177 silly get     'content-length': '6680',
+177 silly get     'accept-ranges': 'bytes',
+177 silly get     date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     age: '33',
+177 silly get     connection: 'keep-alive',
+177 silly get     'x-served-by': 'cache-jfk8138-JFK',
+177 silly get     'x-cache': 'HIT',
+177 silly get     'x-cache-hits': '2',
+177 silly get     'x-timer': 'S1490043843.475839,VS0,VE0',
+177 silly get     vary: 'Accept-Encoding' } ]
+178 verbose get saving raw-body to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\raw-body\.cache.json
+179 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+180 http 304 https://registry.npmjs.org/qs
+181 verbose headers { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+181 verbose headers   via: '1.1 varnish',
+181 verbose headers   'cache-control': 'max-age=300',
+181 verbose headers   etag: 'W/"58cacb2c-178bd"',
+181 verbose headers   age: '121',
+181 verbose headers   connection: 'keep-alive',
+181 verbose headers   'x-served-by': 'cache-jfk8140-JFK',
+181 verbose headers   'x-cache': 'HIT',
+181 verbose headers   'x-cache-hits': '13',
+181 verbose headers   'x-timer': 'S1490043843.484052,VS0,VE0',
+181 verbose headers   vary: 'Accept-Encoding' }
+182 silly get cb [ 304,
+182 silly get   { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     'cache-control': 'max-age=300',
+182 silly get     etag: 'W/"58cacb2c-178bd"',
+182 silly get     age: '121',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-jfk8140-JFK',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '13',
+182 silly get     'x-timer': 'S1490043843.484052,VS0,VE0',
+182 silly get     vary: 'Accept-Encoding' } ]
+183 verbose etag https://registry.npmjs.org/qs from cache
+184 verbose get saving qs to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\qs\.cache.json
+185 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+186 http 200 https://registry.npmjs.org/iconv-lite
+187 verbose headers { server: 'nginx/1.10.1',
+187 verbose headers   'content-type': 'application/json',
+187 verbose headers   'last-modified': 'Thu, 16 Mar 2017 00:36:58 GMT',
+187 verbose headers   etag: 'W/"58c9de2a-fd15"',
+187 verbose headers   'content-encoding': 'gzip',
+187 verbose headers   'cache-control': 'max-age=300',
+187 verbose headers   'content-length': '7738',
+187 verbose headers   'accept-ranges': 'bytes',
+187 verbose headers   date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+187 verbose headers   via: '1.1 varnish',
+187 verbose headers   age: '16',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'x-served-by': 'cache-jfk8146-JFK',
+187 verbose headers   'x-cache': 'HIT',
+187 verbose headers   'x-cache-hits': '2',
+187 verbose headers   'x-timer': 'S1490043843.475971,VS0,VE0',
+187 verbose headers   vary: 'Accept-Encoding' }
+188 silly get cb [ 200,
+188 silly get   { server: 'nginx/1.10.1',
+188 silly get     'content-type': 'application/json',
+188 silly get     'last-modified': 'Thu, 16 Mar 2017 00:36:58 GMT',
+188 silly get     etag: 'W/"58c9de2a-fd15"',
+188 silly get     'content-encoding': 'gzip',
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     'content-length': '7738',
+188 silly get     'accept-ranges': 'bytes',
+188 silly get     date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+188 silly get     via: '1.1 varnish',
+188 silly get     age: '16',
+188 silly get     connection: 'keep-alive',
+188 silly get     'x-served-by': 'cache-jfk8146-JFK',
+188 silly get     'x-cache': 'HIT',
+188 silly get     'x-cache-hits': '2',
+188 silly get     'x-timer': 'S1490043843.475971,VS0,VE0',
+188 silly get     vary: 'Accept-Encoding' } ]
+189 verbose get saving iconv-lite to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\iconv-lite\.cache.json
+190 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 http 304 https://registry.npmjs.org/http-errors
+192 verbose headers { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+192 verbose headers   via: '1.1 varnish',
+192 verbose headers   'cache-control': 'max-age=300',
+192 verbose headers   etag: 'W/"58c8ba3d-8c4b"',
+192 verbose headers   age: '118',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'x-served-by': 'cache-jfk8149-JFK',
+192 verbose headers   'x-cache': 'HIT',
+192 verbose headers   'x-cache-hits': '35',
+192 verbose headers   'x-timer': 'S1490043843.488837,VS0,VE0',
+192 verbose headers   vary: 'Accept-Encoding' }
+193 silly get cb [ 304,
+193 silly get   { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+193 silly get     via: '1.1 varnish',
+193 silly get     'cache-control': 'max-age=300',
+193 silly get     etag: 'W/"58c8ba3d-8c4b"',
+193 silly get     age: '118',
+193 silly get     connection: 'keep-alive',
+193 silly get     'x-served-by': 'cache-jfk8149-JFK',
+193 silly get     'x-cache': 'HIT',
+193 silly get     'x-cache-hits': '35',
+193 silly get     'x-timer': 'S1490043843.488837,VS0,VE0',
+193 silly get     vary: 'Accept-Encoding' } ]
+194 verbose etag https://registry.npmjs.org/http-errors from cache
+195 verbose get saving http-errors to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\http-errors\.cache.json
+196 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 http 304 https://registry.npmjs.org/debug
+198 verbose headers { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+198 verbose headers   via: '1.1 varnish',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   etag: 'W/"58cbbd7a-139cf"',
+198 verbose headers   age: '147',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-served-by': 'cache-jfk8147-JFK',
+198 verbose headers   'x-cache': 'HIT',
+198 verbose headers   'x-cache-hits': '16',
+198 verbose headers   'x-timer': 'S1490043843.488902,VS0,VE0',
+198 verbose headers   vary: 'Accept-Encoding' }
+199 silly get cb [ 304,
+199 silly get   { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     etag: 'W/"58cbbd7a-139cf"',
+199 silly get     age: '147',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-jfk8147-JFK',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '16',
+199 silly get     'x-timer': 'S1490043843.488902,VS0,VE0',
+199 silly get     vary: 'Accept-Encoding' } ]
+200 verbose etag https://registry.npmjs.org/debug from cache
+201 verbose get saving debug to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+202 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+203 silly resolveWithNewModule raw-body@2.2.0 checking installable status
+204 silly cache add args [ 'raw-body@~2.2.0', null ]
+205 verbose cache add spec raw-body@~2.2.0
+206 silly cache add parsed spec Result {
+206 silly cache add   raw: 'raw-body@~2.2.0',
+206 silly cache add   scope: null,
+206 silly cache add   escapedName: 'raw-body',
+206 silly cache add   name: 'raw-body',
+206 silly cache add   rawSpec: '~2.2.0',
+206 silly cache add   spec: '>=2.2.0 <2.3.0',
+206 silly cache add   type: 'range' }
+207 silly addNamed raw-body@>=2.2.0 <2.3.0
+208 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for raw-body
+209 silly addNameRange { name: 'raw-body', range: '>=2.2.0 <2.3.0', hasData: false }
+210 silly mapToRegistry name raw-body
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'raw-body',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   escapedName: 'raw-body',
+213 silly mapToRegistry   name: 'raw-body',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+215 verbose addNameRange registry:https://registry.npmjs.org/raw-body not in flight; fetching
+216 silly resolveWithNewModule iconv-lite@0.4.15 checking installable status
+217 silly cache add args [ 'iconv-lite@0.4.15', null ]
+218 verbose cache add spec iconv-lite@0.4.15
+219 silly cache add parsed spec Result {
+219 silly cache add   raw: 'iconv-lite@0.4.15',
+219 silly cache add   scope: null,
+219 silly cache add   escapedName: 'iconv-lite',
+219 silly cache add   name: 'iconv-lite',
+219 silly cache add   rawSpec: '0.4.15',
+219 silly cache add   spec: '0.4.15',
+219 silly cache add   type: 'version' }
+220 silly addNamed iconv-lite@0.4.15
+221 verbose addNamed "0.4.15" is a plain semver version for iconv-lite
+222 silly mapToRegistry name iconv-lite
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'iconv-lite',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   escapedName: 'iconv-lite',
+225 silly mapToRegistry   name: 'iconv-lite',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+227 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+228 silly resolveWithNewModule http-errors@1.6.1 checking installable status
+229 silly cache add args [ 'http-errors@~1.6.1', null ]
+230 verbose cache add spec http-errors@~1.6.1
+231 silly cache add parsed spec Result {
+231 silly cache add   raw: 'http-errors@~1.6.1',
+231 silly cache add   scope: null,
+231 silly cache add   escapedName: 'http-errors',
+231 silly cache add   name: 'http-errors',
+231 silly cache add   rawSpec: '~1.6.1',
+231 silly cache add   spec: '>=1.6.1 <1.7.0',
+231 silly cache add   type: 'range' }
+232 silly addNamed http-errors@>=1.6.1 <1.7.0
+233 verbose addNamed ">=1.6.1 <1.7.0" is a valid semver range for http-errors
+234 silly addNameRange { name: 'http-errors', range: '>=1.6.1 <1.7.0', hasData: false }
+235 silly mapToRegistry name http-errors
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry https://registry.npmjs.org/
+238 silly mapToRegistry data Result {
+238 silly mapToRegistry   raw: 'http-errors',
+238 silly mapToRegistry   scope: null,
+238 silly mapToRegistry   escapedName: 'http-errors',
+238 silly mapToRegistry   name: 'http-errors',
+238 silly mapToRegistry   rawSpec: '',
+238 silly mapToRegistry   spec: 'latest',
+238 silly mapToRegistry   type: 'tag' }
+239 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+240 verbose addNameRange registry:https://registry.npmjs.org/http-errors not in flight; fetching
+241 silly resolveWithNewModule qs@6.4.0 checking installable status
+242 silly cache add args [ 'qs@6.4.0', null ]
+243 verbose cache add spec qs@6.4.0
+244 silly cache add parsed spec Result {
+244 silly cache add   raw: 'qs@6.4.0',
+244 silly cache add   scope: null,
+244 silly cache add   escapedName: 'qs',
+244 silly cache add   name: 'qs',
+244 silly cache add   rawSpec: '6.4.0',
+244 silly cache add   spec: '6.4.0',
+244 silly cache add   type: 'version' }
+245 silly addNamed qs@6.4.0
+246 verbose addNamed "6.4.0" is a plain semver version for qs
+247 silly mapToRegistry name qs
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry data Result {
+250 silly mapToRegistry   raw: 'qs',
+250 silly mapToRegistry   scope: null,
+250 silly mapToRegistry   escapedName: 'qs',
+250 silly mapToRegistry   name: 'qs',
+250 silly mapToRegistry   rawSpec: '',
+250 silly mapToRegistry   spec: 'latest',
+250 silly mapToRegistry   type: 'tag' }
+251 silly mapToRegistry uri https://registry.npmjs.org/qs
+252 verbose addNameVersion registry:https://registry.npmjs.org/qs not in flight; fetching
+253 silly resolveWithNewModule debug@2.6.1 checking installable status
+254 silly cache add args [ 'debug@2.6.1', null ]
+255 verbose cache add spec debug@2.6.1
+256 silly cache add parsed spec Result {
+256 silly cache add   raw: 'debug@2.6.1',
+256 silly cache add   scope: null,
+256 silly cache add   escapedName: 'debug',
+256 silly cache add   name: 'debug',
+256 silly cache add   rawSpec: '2.6.1',
+256 silly cache add   spec: '2.6.1',
+256 silly cache add   type: 'version' }
+257 silly addNamed debug@2.6.1
+258 verbose addNamed "2.6.1" is a plain semver version for debug
+259 silly mapToRegistry name debug
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry data Result {
+262 silly mapToRegistry   raw: 'debug',
+262 silly mapToRegistry   scope: null,
+262 silly mapToRegistry   escapedName: 'debug',
+262 silly mapToRegistry   name: 'debug',
+262 silly mapToRegistry   rawSpec: '',
+262 silly mapToRegistry   spec: 'latest',
+262 silly mapToRegistry   type: 'tag' }
+263 silly mapToRegistry uri https://registry.npmjs.org/debug
+264 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+265 verbose get https://registry.npmjs.org/raw-body not expired, no request
+266 silly addNameRange number 2 { name: 'raw-body', range: '>=2.2.0 <2.3.0', hasData: true }
+267 silly addNameRange versions [ 'raw-body',
+267 silly addNameRange   [ '0.0.1',
+267 silly addNameRange     '0.0.2',
+267 silly addNameRange     '0.0.3',
+267 silly addNameRange     '0.1.0',
+267 silly addNameRange     '0.1.1',
+267 silly addNameRange     '0.2.0',
+267 silly addNameRange     '1.0.0',
+267 silly addNameRange     '1.0.1',
+267 silly addNameRange     '1.1.0',
+267 silly addNameRange     '1.1.1',
+267 silly addNameRange     '1.1.2',
+267 silly addNameRange     '1.1.3',
+267 silly addNameRange     '1.1.4',
+267 silly addNameRange     '1.1.5',
+267 silly addNameRange     '1.1.6',
+267 silly addNameRange     '1.1.7',
+267 silly addNameRange     '1.2.0',
+267 silly addNameRange     '1.2.1',
+267 silly addNameRange     '1.2.2',
+267 silly addNameRange     '1.2.3',
+267 silly addNameRange     '1.3.0',
+267 silly addNameRange     '1.3.1',
+267 silly addNameRange     '1.3.2',
+267 silly addNameRange     '1.3.3',
+267 silly addNameRange     '1.3.4',
+267 silly addNameRange     '2.0.0',
+267 silly addNameRange     '2.0.1',
+267 silly addNameRange     '2.0.2',
+267 silly addNameRange     '2.1.0',
+267 silly addNameRange     '2.1.1',
+267 silly addNameRange     '2.1.2',
+267 silly addNameRange     '2.1.3',
+267 silly addNameRange     '2.1.4',
+267 silly addNameRange     '2.1.5',
+267 silly addNameRange     '2.1.6',
+267 silly addNameRange     '2.1.7',
+267 silly addNameRange     '2.2.0' ] ]
+268 silly addNamed raw-body@2.2.0
+269 verbose addNamed "2.2.0" is a plain semver version for raw-body
+270 silly mapToRegistry name raw-body
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'raw-body',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   escapedName: 'raw-body',
+273 silly mapToRegistry   name: 'raw-body',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+275 verbose addRemoteTarball https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz not in flight; adding
+276 verbose addRemoteTarball [ 'https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz',
+276 verbose addRemoteTarball   '994976cf6a5096a41162840492f0bdc5d6e7fb96' ]
+277 verbose get https://registry.npmjs.org/iconv-lite not expired, no request
+278 verbose get https://registry.npmjs.org/http-errors not expired, no request
+279 silly addNameRange number 2 { name: 'http-errors', range: '>=1.6.1 <1.7.0', hasData: true }
+280 silly addNameRange versions [ 'http-errors',
+280 silly addNameRange   [ '0.0.1',
+280 silly addNameRange     '1.0.0',
+280 silly addNameRange     '1.0.1',
+280 silly addNameRange     '1.1.0',
+280 silly addNameRange     '1.2.0',
+280 silly addNameRange     '1.2.1',
+280 silly addNameRange     '1.2.2',
+280 silly addNameRange     '1.2.3',
+280 silly addNameRange     '1.2.4',
+280 silly addNameRange     '1.2.5',
+280 silly addNameRange     '1.2.6',
+280 silly addNameRange     '1.2.7',
+280 silly addNameRange     '1.2.8',
+280 silly addNameRange     '1.3.0',
+280 silly addNameRange     '1.3.1',
+280 silly addNameRange     '1.4.0',
+280 silly addNameRange     '1.5.0',
+280 silly addNameRange     '1.5.1',
+280 silly addNameRange     '1.6.0',
+280 silly addNameRange     '1.6.1' ] ]
+281 silly addNamed http-errors@1.6.1
+282 verbose addNamed "1.6.1" is a plain semver version for http-errors
+283 silly mapToRegistry name iconv-lite
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry https://registry.npmjs.org/
+286 silly mapToRegistry data Result {
+286 silly mapToRegistry   raw: 'iconv-lite',
+286 silly mapToRegistry   scope: null,
+286 silly mapToRegistry   escapedName: 'iconv-lite',
+286 silly mapToRegistry   name: 'iconv-lite',
+286 silly mapToRegistry   rawSpec: '',
+286 silly mapToRegistry   spec: 'latest',
+286 silly mapToRegistry   type: 'tag' }
+287 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+288 verbose addRemoteTarball https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz not in flight; adding
+289 verbose addRemoteTarball [ 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz',
+289 verbose addRemoteTarball   'fe265a218ac6a57cfe854927e9d04c19825eddeb' ]
+290 verbose get https://registry.npmjs.org/qs not expired, no request
+291 silly mapToRegistry name http-errors
+292 silly mapToRegistry using default registry
+293 silly mapToRegistry registry https://registry.npmjs.org/
+294 silly mapToRegistry data Result {
+294 silly mapToRegistry   raw: 'http-errors',
+294 silly mapToRegistry   scope: null,
+294 silly mapToRegistry   escapedName: 'http-errors',
+294 silly mapToRegistry   name: 'http-errors',
+294 silly mapToRegistry   rawSpec: '',
+294 silly mapToRegistry   spec: 'latest',
+294 silly mapToRegistry   type: 'tag' }
+295 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+296 verbose addRemoteTarball https://registry.npmjs.org/http-errors/-/http-errors-1.6.1.tgz not in flight; adding
+297 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-errors/-/http-errors-1.6.1.tgz',
+297 verbose addRemoteTarball   '5f8b8ed98aca545656bf572997387f904a722257' ]
+298 verbose get https://registry.npmjs.org/debug not expired, no request
+299 silly mapToRegistry name qs
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry data Result {
+302 silly mapToRegistry   raw: 'qs',
+302 silly mapToRegistry   scope: null,
+302 silly mapToRegistry   escapedName: 'qs',
+302 silly mapToRegistry   name: 'qs',
+302 silly mapToRegistry   rawSpec: '',
+302 silly mapToRegistry   spec: 'latest',
+302 silly mapToRegistry   type: 'tag' }
+303 silly mapToRegistry uri https://registry.npmjs.org/qs
+304 verbose addRemoteTarball https://registry.npmjs.org/qs/-/qs-6.4.0.tgz not in flight; adding
+305 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-6.4.0.tgz',
+305 verbose addRemoteTarball   '13e26d28ad6b0ffaa91312cd3bf708ed351e7233' ]
+306 info retry fetch attempt 1 at 5:04:05 PM
+307 info attempt registry request try #1 at 5:04:05 PM
+308 http fetch GET https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz
+309 silly mapToRegistry name debug
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry data Result {
+312 silly mapToRegistry   raw: 'debug',
+312 silly mapToRegistry   scope: null,
+312 silly mapToRegistry   escapedName: 'debug',
+312 silly mapToRegistry   name: 'debug',
+312 silly mapToRegistry   rawSpec: '',
+312 silly mapToRegistry   spec: 'latest',
+312 silly mapToRegistry   type: 'tag' }
+313 silly mapToRegistry uri https://registry.npmjs.org/debug
+314 verbose addRemoteTarball https://registry.npmjs.org/debug/-/debug-2.6.1.tgz not in flight; adding
+315 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.6.1.tgz',
+315 verbose addRemoteTarball   '79855090ba2c4e3115cc7d8769491d58f0491351' ]
+316 info retry fetch attempt 1 at 5:04:05 PM
+317 info attempt registry request try #1 at 5:04:05 PM
+318 http fetch GET https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz
+319 info retry fetch attempt 1 at 5:04:05 PM
+320 info attempt registry request try #1 at 5:04:05 PM
+321 http fetch GET https://registry.npmjs.org/http-errors/-/http-errors-1.6.1.tgz
+322 info retry fetch attempt 1 at 5:04:05 PM
+323 info attempt registry request try #1 at 5:04:05 PM
+324 http fetch GET https://registry.npmjs.org/qs/-/qs-6.4.0.tgz
+325 info retry fetch attempt 1 at 5:04:05 PM
+326 info attempt registry request try #1 at 5:04:05 PM
+327 http fetch GET https://registry.npmjs.org/debug/-/debug-2.6.1.tgz
+328 http fetch 200 https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz
+329 silly fetchAndShaCheck shasum 994976cf6a5096a41162840492f0bdc5d6e7fb96
+330 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\raw-body\-\raw-body-2.2.0.tgz not in flight; adding
+331 verbose addTmpTarball already have metadata; skipping unpack for raw-body@2.2.0
+332 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+333 http fetch 200 https://registry.npmjs.org/qs/-/qs-6.4.0.tgz
+334 http fetch 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz
+335 http fetch 200 https://registry.npmjs.org/http-errors/-/http-errors-1.6.1.tgz
+336 http fetch 200 https://registry.npmjs.org/debug/-/debug-2.6.1.tgz
+337 silly fetchAndShaCheck shasum 5f8b8ed98aca545656bf572997387f904a722257
+338 silly fetchAndShaCheck shasum 79855090ba2c4e3115cc7d8769491d58f0491351
+339 silly cache afterAdd raw-body@2.2.0
+340 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\raw-body\2.2.0\package\package.json not in flight; writing
+341 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+342 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\http-errors\-\http-errors-1.6.1.tgz not in flight; adding
+343 verbose addTmpTarball already have metadata; skipping unpack for http-errors@1.6.1
+344 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+345 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\debug\-\debug-2.6.1.tgz not in flight; adding
+346 verbose addTmpTarball already have metadata; skipping unpack for debug@2.6.1
+347 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+348 silly fetchAndShaCheck shasum 13e26d28ad6b0ffaa91312cd3bf708ed351e7233
+349 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\qs\-\qs-6.4.0.tgz not in flight; adding
+350 verbose addTmpTarball already have metadata; skipping unpack for qs@6.4.0
+351 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+352 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\raw-body\2.2.0\package\package.json written
+353 silly cache afterAdd debug@2.6.1
+354 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\debug\2.6.1\package\package.json not in flight; writing
+355 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+356 silly cache afterAdd http-errors@1.6.1
+357 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\http-errors\1.6.1\package\package.json not in flight; writing
+358 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+359 silly cache afterAdd qs@6.4.0
+360 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\qs\6.4.0\package\package.json not in flight; writing
+361 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+362 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\debug\2.6.1\package\package.json written
+363 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\http-errors\1.6.1\package\package.json written
+364 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\qs\6.4.0\package\package.json written
+365 silly fetchAndShaCheck shasum fe265a218ac6a57cfe854927e9d04c19825eddeb
+366 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\iconv-lite\-\iconv-lite-0.4.15.tgz not in flight; adding
+367 verbose addTmpTarball already have metadata; skipping unpack for iconv-lite@0.4.15
+368 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+369 silly cache afterAdd iconv-lite@0.4.15
+370 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package\package.json not in flight; writing
+371 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+372 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package\package.json written
+373 silly fetchNamedPackageData ms
+374 silly mapToRegistry name ms
+375 silly mapToRegistry using default registry
+376 silly mapToRegistry registry https://registry.npmjs.org/
+377 silly mapToRegistry data Result {
+377 silly mapToRegistry   raw: 'ms',
+377 silly mapToRegistry   scope: null,
+377 silly mapToRegistry   escapedName: 'ms',
+377 silly mapToRegistry   name: 'ms',
+377 silly mapToRegistry   rawSpec: '',
+377 silly mapToRegistry   spec: 'latest',
+377 silly mapToRegistry   type: 'tag' }
+378 silly mapToRegistry uri https://registry.npmjs.org/ms
+379 verbose request uri https://registry.npmjs.org/ms
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 5:04:05 PM
+382 verbose etag W/"58cefb73-35f2"
+383 verbose lastModified Sun, 19 Mar 2017 21:43:15 GMT
+384 http request GET https://registry.npmjs.org/ms
+385 http 304 https://registry.npmjs.org/ms
+386 verbose headers { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+386 verbose headers   via: '1.1 varnish',
+386 verbose headers   'cache-control': 'max-age=300',
+386 verbose headers   etag: 'W/"58cefb73-35f2"',
+386 verbose headers   age: '188',
+386 verbose headers   connection: 'keep-alive',
+386 verbose headers   'x-served-by': 'cache-jfk8147-JFK',
+386 verbose headers   'x-cache': 'HIT',
+386 verbose headers   'x-cache-hits': '17',
+386 verbose headers   'x-timer': 'S1490043843.675382,VS0,VE0',
+386 verbose headers   vary: 'Accept-Encoding' }
+387 silly get cb [ 304,
+387 silly get   { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+387 silly get     via: '1.1 varnish',
+387 silly get     'cache-control': 'max-age=300',
+387 silly get     etag: 'W/"58cefb73-35f2"',
+387 silly get     age: '188',
+387 silly get     connection: 'keep-alive',
+387 silly get     'x-served-by': 'cache-jfk8147-JFK',
+387 silly get     'x-cache': 'HIT',
+387 silly get     'x-cache-hits': '17',
+387 silly get     'x-timer': 'S1490043843.675382,VS0,VE0',
+387 silly get     vary: 'Accept-Encoding' } ]
+388 verbose etag https://registry.npmjs.org/ms from cache
+389 verbose get saving ms to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+390 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+391 silly resolveWithNewModule ms@0.7.2 checking installable status
+392 silly cache add args [ 'ms@0.7.2', null ]
+393 verbose cache add spec ms@0.7.2
+394 silly cache add parsed spec Result {
+394 silly cache add   raw: 'ms@0.7.2',
+394 silly cache add   scope: null,
+394 silly cache add   escapedName: 'ms',
+394 silly cache add   name: 'ms',
+394 silly cache add   rawSpec: '0.7.2',
+394 silly cache add   spec: '0.7.2',
+394 silly cache add   type: 'version' }
+395 silly addNamed ms@0.7.2
+396 verbose addNamed "0.7.2" is a plain semver version for ms
+397 silly mapToRegistry name ms
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry data Result {
+400 silly mapToRegistry   raw: 'ms',
+400 silly mapToRegistry   scope: null,
+400 silly mapToRegistry   escapedName: 'ms',
+400 silly mapToRegistry   name: 'ms',
+400 silly mapToRegistry   rawSpec: '',
+400 silly mapToRegistry   spec: 'latest',
+400 silly mapToRegistry   type: 'tag' }
+401 silly mapToRegistry uri https://registry.npmjs.org/ms
+402 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+403 verbose get https://registry.npmjs.org/ms not expired, no request
+404 silly cache afterAdd ms@0.7.2
+405 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\ms\0.7.2\package\package.json not in flight; writing
+406 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+407 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\ms\0.7.2\package\package.json written
+408 silly fetchNamedPackageData setprototypeof
+409 silly mapToRegistry name setprototypeof
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npmjs.org/
+412 silly mapToRegistry data Result {
+412 silly mapToRegistry   raw: 'setprototypeof',
+412 silly mapToRegistry   scope: null,
+412 silly mapToRegistry   escapedName: 'setprototypeof',
+412 silly mapToRegistry   name: 'setprototypeof',
+412 silly mapToRegistry   rawSpec: '',
+412 silly mapToRegistry   spec: 'latest',
+412 silly mapToRegistry   type: 'tag' }
+413 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
+414 verbose request uri https://registry.npmjs.org/setprototypeof
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 5:04:05 PM
+417 verbose etag W/"58bfcb94-163f"
+418 verbose lastModified Wed, 08 Mar 2017 09:15:00 GMT
+419 http request GET https://registry.npmjs.org/setprototypeof
+420 http 304 https://registry.npmjs.org/setprototypeof
+421 verbose headers { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+421 verbose headers   via: '1.1 varnish',
+421 verbose headers   'cache-control': 'max-age=300',
+421 verbose headers   etag: 'W/"58bfcb94-163f"',
+421 verbose headers   age: '9',
+421 verbose headers   connection: 'keep-alive',
+421 verbose headers   'x-served-by': 'cache-jfk8141-JFK',
+421 verbose headers   'x-cache': 'HIT',
+421 verbose headers   'x-cache-hits': '3',
+421 verbose headers   'x-timer': 'S1490043843.701338,VS0,VE0',
+421 verbose headers   vary: 'Accept-Encoding' }
+422 silly get cb [ 304,
+422 silly get   { date: 'Mon, 20 Mar 2017 21:04:03 GMT',
+422 silly get     via: '1.1 varnish',
+422 silly get     'cache-control': 'max-age=300',
+422 silly get     etag: 'W/"58bfcb94-163f"',
+422 silly get     age: '9',
+422 silly get     connection: 'keep-alive',
+422 silly get     'x-served-by': 'cache-jfk8141-JFK',
+422 silly get     'x-cache': 'HIT',
+422 silly get     'x-cache-hits': '3',
+422 silly get     'x-timer': 'S1490043843.701338,VS0,VE0',
+422 silly get     vary: 'Accept-Encoding' } ]
+423 verbose etag https://registry.npmjs.org/setprototypeof from cache
+424 verbose get saving setprototypeof to C:\Users\Tanusha\AppData\Roaming\npm-cache\registry.npmjs.org\setprototypeof\.cache.json
+425 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+426 silly resolveWithNewModule setprototypeof@1.0.3 checking installable status
+427 silly cache add args [ 'setprototypeof@1.0.3', null ]
+428 verbose cache add spec setprototypeof@1.0.3
+429 silly cache add parsed spec Result {
+429 silly cache add   raw: 'setprototypeof@1.0.3',
+429 silly cache add   scope: null,
+429 silly cache add   escapedName: 'setprototypeof',
+429 silly cache add   name: 'setprototypeof',
+429 silly cache add   rawSpec: '1.0.3',
+429 silly cache add   spec: '1.0.3',
+429 silly cache add   type: 'version' }
+430 silly addNamed setprototypeof@1.0.3
+431 verbose addNamed "1.0.3" is a plain semver version for setprototypeof
+432 silly mapToRegistry name setprototypeof
+433 silly mapToRegistry using default registry
+434 silly mapToRegistry registry https://registry.npmjs.org/
+435 silly mapToRegistry data Result {
+435 silly mapToRegistry   raw: 'setprototypeof',
+435 silly mapToRegistry   scope: null,
+435 silly mapToRegistry   escapedName: 'setprototypeof',
+435 silly mapToRegistry   name: 'setprototypeof',
+435 silly mapToRegistry   rawSpec: '',
+435 silly mapToRegistry   spec: 'latest',
+435 silly mapToRegistry   type: 'tag' }
+436 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
+437 verbose addNameVersion registry:https://registry.npmjs.org/setprototypeof not in flight; fetching
+438 verbose get https://registry.npmjs.org/setprototypeof not expired, no request
+439 silly mapToRegistry name setprototypeof
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry data Result {
+442 silly mapToRegistry   raw: 'setprototypeof',
+442 silly mapToRegistry   scope: null,
+442 silly mapToRegistry   escapedName: 'setprototypeof',
+442 silly mapToRegistry   name: 'setprototypeof',
+442 silly mapToRegistry   rawSpec: '',
+442 silly mapToRegistry   spec: 'latest',
+442 silly mapToRegistry   type: 'tag' }
+443 silly mapToRegistry uri https://registry.npmjs.org/setprototypeof
+444 verbose addRemoteTarball https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz not in flight; adding
+445 verbose addRemoteTarball [ 'https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz',
+445 verbose addRemoteTarball   '66567e37043eeb4f04d91bd658c0cbefb55b8e04' ]
+446 info retry fetch attempt 1 at 5:04:05 PM
+447 info attempt registry request try #1 at 5:04:05 PM
+448 http fetch GET https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz
+449 http fetch 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz
+450 silly fetchAndShaCheck shasum 66567e37043eeb4f04d91bd658c0cbefb55b8e04
+451 verbose addTmpTarball C:\Users\Tanusha\AppData\Local\Temp\npm-6412-8d4e6f3c\registry.npmjs.org\setprototypeof\-\setprototypeof-1.0.3.tgz not in flight; adding
+452 verbose addTmpTarball already have metadata; skipping unpack for setprototypeof@1.0.3
+453 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+454 silly cache afterAdd setprototypeof@1.0.3
+455 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\setprototypeof\1.0.3\package\package.json not in flight; writing
+456 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+457 verbose afterAdd C:\Users\Tanusha\AppData\Roaming\npm-cache\setprototypeof\1.0.3\package\package.json written
+458 silly loadAllDepsIntoIdealTree Finishing
+459 silly loadIdealTree Finishing
+460 silly currentTree node-chat-app@1.0.0
+460 silly currentTree +-- accepts@1.3.3
+460 silly currentTree +-- array-flatten@1.1.1
+460 silly currentTree +-- content-disposition@0.5.1
+460 silly currentTree +-- content-type@1.0.2
+460 silly currentTree +-- cookie-signature@1.0.6
+460 silly currentTree +-- cookie@0.3.1
+460 silly currentTree +-- debug@2.2.0
+460 silly currentTree +-- depd@1.1.0
+460 silly currentTree +-- destroy@1.0.4
+460 silly currentTree +-- ee-first@1.1.1
+460 silly currentTree +-- encodeurl@1.0.1
+460 silly currentTree +-- escape-html@1.0.3
+460 silly currentTree +-- etag@1.7.0
+460 silly currentTree +-- express@4.14.0
+460 silly currentTree +-- finalhandler@0.5.0
+460 silly currentTree +-- forwarded@0.1.0
+460 silly currentTree +-- fresh@0.3.0
+460 silly currentTree +-- http-errors@1.5.1
+460 silly currentTree +-- inherits@2.0.3
+460 silly currentTree +-- ipaddr.js@1.2.0
+460 silly currentTree +-- media-typer@0.3.0
+460 silly currentTree +-- merge-descriptors@1.0.1
+460 silly currentTree +-- methods@1.1.2
+460 silly currentTree +-- mime-db@1.26.0
+460 silly currentTree +-- mime-types@2.1.14
+460 silly currentTree +-- mime@1.3.4
+460 silly currentTree +-- ms@0.7.1
+460 silly currentTree +-- negotiator@0.6.1
+460 silly currentTree +-- on-finished@2.3.0
+460 silly currentTree +-- parseurl@1.3.1
+460 silly currentTree +-- path-to-regexp@0.1.7
+460 silly currentTree +-- proxy-addr@1.1.3
+460 silly currentTree +-- qs@6.2.0
+460 silly currentTree +-- range-parser@1.2.0
+460 silly currentTree +-- send@0.14.1
+460 silly currentTree +-- serve-static@1.11.2
+460 silly currentTree | +-- ms@0.7.2
+460 silly currentTree | `-- send@0.14.2
+460 silly currentTree +-- setprototypeof@1.0.2
+460 silly currentTree +-- statuses@1.3.1
+460 silly currentTree +-- type-is@1.6.14
+460 silly currentTree +-- unpipe@1.0.0
+460 silly currentTree +-- utils-merge@1.0.0
+460 silly currentTree `-- vary@1.1.0
+461 silly idealTree node-chat-app@1.0.0
+461 silly idealTree +-- accepts@1.3.3
+461 silly idealTree +-- array-flatten@1.1.1
+461 silly idealTree +-- body-parser@1.17.1
+461 silly idealTree | +-- debug@2.6.1
+461 silly idealTree | +-- http-errors@1.6.1
+461 silly idealTree | +-- ms@0.7.2
+461 silly idealTree | +-- qs@6.4.0
+461 silly idealTree | `-- setprototypeof@1.0.3
+461 silly idealTree +-- bytes@2.4.0
+461 silly idealTree +-- content-disposition@0.5.1
+461 silly idealTree +-- content-type@1.0.2
+461 silly idealTree +-- cookie-signature@1.0.6
+461 silly idealTree +-- cookie@0.3.1
+461 silly idealTree +-- debug@2.2.0
+461 silly idealTree +-- depd@1.1.0
+461 silly idealTree +-- destroy@1.0.4
+461 silly idealTree +-- ee-first@1.1.1
+461 silly idealTree +-- encodeurl@1.0.1
+461 silly idealTree +-- escape-html@1.0.3
+461 silly idealTree +-- etag@1.7.0
+461 silly idealTree +-- express@4.14.0
+461 silly idealTree +-- finalhandler@0.5.0
+461 silly idealTree +-- forwarded@0.1.0
+461 silly idealTree +-- fresh@0.3.0
+461 silly idealTree +-- http-errors@1.5.1
+461 silly idealTree +-- iconv-lite@0.4.15
+461 silly idealTree +-- inherits@2.0.3
+461 silly idealTree +-- ipaddr.js@1.2.0
+461 silly idealTree +-- media-typer@0.3.0
+461 silly idealTree +-- merge-descriptors@1.0.1
+461 silly idealTree +-- methods@1.1.2
+461 silly idealTree +-- mime-db@1.26.0
+461 silly idealTree +-- mime-types@2.1.14
+461 silly idealTree +-- mime@1.3.4
+461 silly idealTree +-- ms@0.7.1
+461 silly idealTree +-- negotiator@0.6.1
+461 silly idealTree +-- on-finished@2.3.0
+461 silly idealTree +-- parseurl@1.3.1
+461 silly idealTree +-- path-to-regexp@0.1.7
+461 silly idealTree +-- proxy-addr@1.1.3
+461 silly idealTree +-- qs@6.2.0
+461 silly idealTree +-- range-parser@1.2.0
+461 silly idealTree +-- raw-body@2.2.0
+461 silly idealTree +-- send@0.14.1
+461 silly idealTree +-- serve-static@1.11.2
+461 silly idealTree | +-- ms@0.7.2
+461 silly idealTree | `-- send@0.14.2
+461 silly idealTree +-- setprototypeof@1.0.2
+461 silly idealTree +-- statuses@1.3.1
+461 silly idealTree +-- type-is@1.6.14
+461 silly idealTree +-- unpipe@1.0.0
+461 silly idealTree +-- utils-merge@1.0.0
+461 silly idealTree `-- vary@1.1.0
+462 silly generateActionsToTake Starting
+463 silly install generateActionsToTake
+464 silly generateActionsToTake Finishing
+465 silly diffTrees action count 9
+466 silly diffTrees add ms@0.7.2
+467 silly diffTrees add setprototypeof@1.0.3
+468 silly diffTrees add bytes@2.4.0
+469 silly diffTrees add iconv-lite@0.4.15
+470 silly diffTrees add debug@2.6.1
+471 silly diffTrees add http-errors@1.6.1
+472 silly diffTrees add qs@6.4.0
+473 silly diffTrees add raw-body@2.2.0
+474 silly diffTrees add body-parser@1.17.1
+475 silly decomposeActions action count 72
+476 silly decomposeActions fetch ms@0.7.2
+477 silly decomposeActions extract ms@0.7.2
+478 silly decomposeActions test ms@0.7.2
+479 silly decomposeActions preinstall ms@0.7.2
+480 silly decomposeActions build ms@0.7.2
+481 silly decomposeActions install ms@0.7.2
+482 silly decomposeActions postinstall ms@0.7.2
+483 silly decomposeActions finalize ms@0.7.2
+484 silly decomposeActions fetch setprototypeof@1.0.3
+485 silly decomposeActions extract setprototypeof@1.0.3
+486 silly decomposeActions test setprototypeof@1.0.3
+487 silly decomposeActions preinstall setprototypeof@1.0.3
+488 silly decomposeActions build setprototypeof@1.0.3
+489 silly decomposeActions install setprototypeof@1.0.3
+490 silly decomposeActions postinstall setprototypeof@1.0.3
+491 silly decomposeActions finalize setprototypeof@1.0.3
+492 silly decomposeActions fetch bytes@2.4.0
+493 silly decomposeActions extract bytes@2.4.0
+494 silly decomposeActions test bytes@2.4.0
+495 silly decomposeActions preinstall bytes@2.4.0
+496 silly decomposeActions build bytes@2.4.0
+497 silly decomposeActions install bytes@2.4.0
+498 silly decomposeActions postinstall bytes@2.4.0
+499 silly decomposeActions finalize bytes@2.4.0
+500 silly decomposeActions fetch iconv-lite@0.4.15
+501 silly decomposeActions extract iconv-lite@0.4.15
+502 silly decomposeActions test iconv-lite@0.4.15
+503 silly decomposeActions preinstall iconv-lite@0.4.15
+504 silly decomposeActions build iconv-lite@0.4.15
+505 silly decomposeActions install iconv-lite@0.4.15
+506 silly decomposeActions postinstall iconv-lite@0.4.15
+507 silly decomposeActions finalize iconv-lite@0.4.15
+508 silly decomposeActions fetch debug@2.6.1
+509 silly decomposeActions extract debug@2.6.1
+510 silly decomposeActions test debug@2.6.1
+511 silly decomposeActions preinstall debug@2.6.1
+512 silly decomposeActions build debug@2.6.1
+513 silly decomposeActions install debug@2.6.1
+514 silly decomposeActions postinstall debug@2.6.1
+515 silly decomposeActions finalize debug@2.6.1
+516 silly decomposeActions fetch http-errors@1.6.1
+517 silly decomposeActions extract http-errors@1.6.1
+518 silly decomposeActions test http-errors@1.6.1
+519 silly decomposeActions preinstall http-errors@1.6.1
+520 silly decomposeActions build http-errors@1.6.1
+521 silly decomposeActions install http-errors@1.6.1
+522 silly decomposeActions postinstall http-errors@1.6.1
+523 silly decomposeActions finalize http-errors@1.6.1
+524 silly decomposeActions fetch qs@6.4.0
+525 silly decomposeActions extract qs@6.4.0
+526 silly decomposeActions test qs@6.4.0
+527 silly decomposeActions preinstall qs@6.4.0
+528 silly decomposeActions build qs@6.4.0
+529 silly decomposeActions install qs@6.4.0
+530 silly decomposeActions postinstall qs@6.4.0
+531 silly decomposeActions finalize qs@6.4.0
+532 silly decomposeActions fetch raw-body@2.2.0
+533 silly decomposeActions extract raw-body@2.2.0
+534 silly decomposeActions test raw-body@2.2.0
+535 silly decomposeActions preinstall raw-body@2.2.0
+536 silly decomposeActions build raw-body@2.2.0
+537 silly decomposeActions install raw-body@2.2.0
+538 silly decomposeActions postinstall raw-body@2.2.0
+539 silly decomposeActions finalize raw-body@2.2.0
+540 silly decomposeActions fetch body-parser@1.17.1
+541 silly decomposeActions extract body-parser@1.17.1
+542 silly decomposeActions test body-parser@1.17.1
+543 silly decomposeActions preinstall body-parser@1.17.1
+544 silly decomposeActions build body-parser@1.17.1
+545 silly decomposeActions install body-parser@1.17.1
+546 silly decomposeActions postinstall body-parser@1.17.1
+547 silly decomposeActions finalize body-parser@1.17.1
+548 silly runTopLevelLifecycles Starting
+549 silly executeActions Starting
+550 silly install executeActions
+551 silly doSerial global-install 0
+552 silly doParallel fetch 9
+553 verbose correctMkdir C:\Users\Tanusha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+554 verbose lock using C:\Users\Tanusha\AppData\Roaming\npm-cache\_locks\staging-4637b2edb36fad03.lock for C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging
+555 silly doParallel extract 9
+556 silly extract ms@0.7.2
+557 silly extract setprototypeof@1.0.3
+558 silly extract bytes@2.4.0
+559 silly extract iconv-lite@0.4.15
+560 silly extract debug@2.6.1
+561 silly extract http-errors@1.6.1
+562 silly extract qs@6.4.0
+563 silly extract raw-body@2.2.0
+564 silly extract body-parser@1.17.1
+565 verbose unbuild node_modules\.staging\ms-ace57aa8
+566 verbose unbuild node_modules\.staging\bytes-ec1eecb7
+567 verbose unbuild node_modules\.staging\iconv-lite-baeb9df6
+568 verbose unbuild node_modules\.staging\setprototypeof-9bbe4d3a
+569 verbose unbuild node_modules\.staging\raw-body-fe127203
+570 verbose unbuild node_modules\.staging\http-errors-86f7aa2a
+571 verbose unbuild node_modules\.staging\debug-b9cf261c
+572 verbose unbuild node_modules\.staging\body-parser-fef3881f
+573 verbose unbuild node_modules\.staging\qs-d3b55372
+574 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8 is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+575 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8
+576 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7 is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+577 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7
+578 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6 is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+579 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6
+580 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+581 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a
+582 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203 is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+583 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203
+584 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+585 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a
+586 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+587 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c
+588 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+589 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f
+590 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372 is being purged from base C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+591 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372
+592 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\ms\0.7.2\package.tgz
+593 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8
+594 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8 is being purged
+595 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8
+596 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\bytes\2.4.0\package.tgz
+597 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7
+598 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7 is being purged
+599 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7
+600 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package.tgz
+601 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6
+602 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6 is being purged
+603 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6
+604 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\setprototypeof\1.0.3\package.tgz
+605 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a
+606 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a is being purged
+607 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a
+608 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\raw-body\2.2.0\package.tgz
+609 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203
+610 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203 is being purged
+611 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203
+612 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\http-errors\1.6.1\package.tgz
+613 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a
+614 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a is being purged
+615 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a
+616 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\debug\2.6.1\package.tgz
+617 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c
+618 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c is being purged
+619 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c
+620 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\body-parser\1.17.1\package.tgz
+621 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f
+622 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f is being purged
+623 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f
+624 verbose tar unpack C:\Users\Tanusha\AppData\Roaming\npm-cache\qs\6.4.0\package.tgz
+625 verbose tar unpacking to C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372
+626 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372 is being purged
+627 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372
+628 silly gunzTarPerm modes [ '777', '666' ]
+629 silly gunzTarPerm modes [ '777', '666' ]
+630 silly gunzTarPerm modes [ '777', '666' ]
+631 silly gunzTarPerm modes [ '777', '666' ]
+632 silly gunzTarPerm modes [ '777', '666' ]
+633 silly gunzTarPerm modes [ '777', '666' ]
+634 silly gunzTarPerm modes [ '777', '666' ]
+635 silly gunzTarPerm modes [ '777', '666' ]
+636 silly gunzTarPerm modes [ '777', '666' ]
+637 silly gunzTarPerm extractEntry package.json
+638 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+639 silly gunzTarPerm extractEntry package.json
+640 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+641 silly gunzTarPerm extractEntry package.json
+642 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+643 silly gunzTarPerm extractEntry package.json
+644 silly gunzTarPerm extractEntry package.json
+645 silly gunzTarPerm extractEntry package.json
+646 silly gunzTarPerm extractEntry package.json
+647 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+648 silly gunzTarPerm extractEntry package.json
+649 silly gunzTarPerm extractEntry package.json
+650 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+651 silly gunzTarPerm extractEntry README.md
+652 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+653 silly gunzTarPerm extractEntry LICENSE
+654 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+655 silly gunzTarPerm extractEntry README.md
+656 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+657 silly gunzTarPerm extractEntry index.js
+658 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+659 silly gunzTarPerm extractEntry LICENSE
+660 silly gunzTarPerm extractEntry index.js
+661 silly gunzTarPerm extractEntry .npmignore
+662 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+663 silly gunzTarPerm extractEntry README.md
+664 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+665 silly gunzTarPerm extractEntry README.md
+666 silly gunzTarPerm extractEntry LICENSE
+667 silly gunzTarPerm extractEntry .npmignore
+668 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+669 silly gunzTarPerm extractEntry README.md
+670 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+671 silly gunzTarPerm extractEntry README.md
+672 silly gunzTarPerm extractEntry LICENSE
+673 silly gunzTarPerm extractEntry README.md
+674 silly gunzTarPerm extractEntry LICENSE
+675 silly gunzTarPerm extractEntry index.js
+676 silly gunzTarPerm extractEntry HISTORY.md
+677 silly gunzTarPerm extractEntry lib/read.js
+678 silly gunzTarPerm extractEntry lib/types/json.js
+679 silly gunzTarPerm extractEntry lib/types/raw.js
+680 silly gunzTarPerm extractEntry lib/types/text.js
+681 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+682 silly gunzTarPerm extractEntry README.md
+683 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+684 silly gunzTarPerm extractEntry LICENSE
+685 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+686 silly gunzTarPerm extractEntry History.md
+687 silly gunzTarPerm extractEntry Readme.md
+688 silly gunzTarPerm extractEntry index.js
+689 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+690 silly gunzTarPerm extractEntry LICENSE.md
+691 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+692 silly gunzTarPerm extractEntry LICENSE
+693 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+694 silly gunzTarPerm extractEntry index.js
+695 silly gunzTarPerm extractEntry HISTORY.md
+696 silly gunzTarPerm extractEntry index.js
+697 silly gunzTarPerm extractEntry HISTORY.md
+698 silly gunzTarPerm extractEntry LICENSE
+699 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+700 silly gunzTarPerm extractEntry karma.conf.js
+701 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+702 silly gunzTarPerm extractEntry .eslintignore
+703 silly gunzTarPerm modified mode [ '.eslintignore', 420, 438 ]
+704 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+705 silly gunzTarPerm modified mode [ 'encodings/dbcs-codec.js', 420, 438 ]
+706 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+707 silly gunzTarPerm modified mode [ 'encodings/dbcs-data.js', 420, 438 ]
+708 silly gunzTarPerm extractEntry node.js
+709 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+710 silly gunzTarPerm extractEntry CHANGELOG.md
+711 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+712 silly gunzTarPerm extractEntry .eslintrc
+713 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+714 silly gunzTarPerm extractEntry component.json
+715 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+716 silly gunzTarPerm extractEntry Makefile
+717 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+718 silly gunzTarPerm extractEntry encodings/index.js
+719 silly gunzTarPerm modified mode [ 'encodings/index.js', 420, 438 ]
+720 silly gunzTarPerm extractEntry encodings/internal.js
+721 silly gunzTarPerm modified mode [ 'encodings/internal.js', 420, 438 ]
+722 silly gunzTarPerm extractEntry dist/qs.js
+723 silly gunzTarPerm modified mode [ 'dist/qs.js', 420, 438 ]
+724 silly gunzTarPerm extractEntry lib/formats.js
+725 silly gunzTarPerm modified mode [ 'lib/formats.js', 420, 438 ]
+726 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+727 silly gunzTarPerm modified mode [ 'encodings/sbcs-codec.js', 420, 438 ]
+728 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+729 silly gunzTarPerm modified mode [ 'encodings/sbcs-data-generated.js', 420, 438 ]
+730 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+731 silly gunzTarPerm modified mode [ 'encodings/sbcs-data.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry .coveralls.yml
+733 silly gunzTarPerm modified mode [ '.coveralls.yml', 420, 438 ]
+734 silly gunzTarPerm extractEntry bower.json
+735 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+736 silly gunzTarPerm extractEntry lib/index.js
+737 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+738 silly gunzTarPerm extractEntry lib/parse.js
+739 silly gunzTarPerm modified mode [ 'lib/parse.js', 420, 438 ]
+740 silly gunzTarPerm extractEntry encodings/utf16.js
+741 silly gunzTarPerm modified mode [ 'encodings/utf16.js', 420, 438 ]
+742 silly gunzTarPerm extractEntry lib/stringify.js
+743 silly gunzTarPerm modified mode [ 'lib/stringify.js', 420, 438 ]
+744 silly gunzTarPerm extractEntry lib/utils.js
+745 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+746 silly gunzTarPerm extractEntry .eslintrc
+747 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+748 silly gunzTarPerm extractEntry .travis.yml
+749 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+750 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a\node_modules is being purged
+751 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a\node_modules
+752 silly gunzTarPerm extractEntry encodings/utf7.js
+753 silly gunzTarPerm modified mode [ 'encodings/utf7.js', 420, 438 ]
+754 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+755 silly gunzTarPerm modified mode [ 'encodings/tables/big5-added.json', 420, 438 ]
+756 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8\node_modules is being purged
+757 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8\node_modules
+758 silly gunzTarPerm extractEntry CHANGELOG.md
+759 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+760 silly gunzTarPerm extractEntry src/browser.js
+761 silly gunzTarPerm modified mode [ 'src/browser.js', 420, 438 ]
+762 silly gunzTarPerm extractEntry .jscs.json
+763 silly gunzTarPerm modified mode [ '.jscs.json', 420, 438 ]
+764 silly gunzTarPerm extractEntry test/index.js
+765 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+766 silly gunzTarPerm extractEntry test/parse.js
+767 silly gunzTarPerm modified mode [ 'test/parse.js', 420, 438 ]
+768 silly gunzTarPerm extractEntry test/stringify.js
+769 silly gunzTarPerm modified mode [ 'test/stringify.js', 420, 438 ]
+770 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+771 silly gunzTarPerm modified mode [ 'encodings/tables/cp936.json', 420, 438 ]
+772 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7\node_modules is being purged
+773 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7\node_modules
+774 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+775 silly gunzTarPerm modified mode [ 'encodings/tables/cp949.json', 420, 438 ]
+776 silly gunzTarPerm extractEntry src/debug.js
+777 silly gunzTarPerm modified mode [ 'src/debug.js', 420, 438 ]
+778 silly gunzTarPerm extractEntry src/index.js
+779 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+780 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203\node_modules is being purged
+781 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203\node_modules
+782 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a\node_modules is being purged
+783 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a\node_modules
+784 silly gunzTarPerm extractEntry test/utils.js
+785 silly gunzTarPerm modified mode [ 'test/utils.js', 420, 438 ]
+786 silly gunzTarPerm extractEntry test/.eslintrc
+787 silly gunzTarPerm modified mode [ 'test/.eslintrc', 420, 438 ]
+788 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+789 silly gunzTarPerm modified mode [ 'encodings/tables/cp950.json', 420, 438 ]
+790 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+791 silly gunzTarPerm modified mode [ 'encodings/tables/eucjp.json', 420, 438 ]
+792 silly gunzTarPerm extractEntry src/node.js
+793 silly gunzTarPerm modified mode [ 'src/node.js', 420, 438 ]
+794 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
+795 silly gunzTarPerm modified mode [ 'encodings/tables/gb18030-ranges.json', 420, 438 ]
+796 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
+797 silly gunzTarPerm modified mode [ 'encodings/tables/gbk-added.json', 420, 438 ]
+798 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
+799 silly gunzTarPerm modified mode [ 'encodings/tables/shiftjis.json', 420, 438 ]
+800 silly gunzTarPerm extractEntry .travis.yml
+801 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+802 silly gunzTarPerm extractEntry Changelog.md
+803 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 438 ]
+804 silly gunzTarPerm extractEntry lib/bom-handling.js
+805 silly gunzTarPerm modified mode [ 'lib/bom-handling.js', 420, 438 ]
+806 silly gunzTarPerm extractEntry lib/extend-node.js
+807 silly gunzTarPerm modified mode [ 'lib/extend-node.js', 420, 438 ]
+808 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f\node_modules is being purged
+809 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f\node_modules
+810 silly gunzTarPerm extractEntry lib/index.js
+811 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+812 silly gunzTarPerm extractEntry lib/streams.js
+813 silly gunzTarPerm modified mode [ 'lib/streams.js', 420, 438 ]
+814 silly gunzTarPerm extractEntry lib/index.d.ts
+815 silly gunzTarPerm modified mode [ 'lib/index.d.ts', 420, 438 ]
+816 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c\node_modules is being purged
+817 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c\node_modules
+818 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372\node_modules is being purged
+819 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372\node_modules
+820 silly gentlyRm C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6\node_modules is being purged
+821 verbose gentlyRm don't care about contents; nuking C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6\node_modules
+822 silly doParallel preinstall 9
+823 silly preinstall ms@0.7.2 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\ms-ace57aa8
+824 info lifecycle ms@0.7.2~preinstall: ms@0.7.2
+825 silly preinstall setprototypeof@1.0.3 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\setprototypeof-9bbe4d3a
+826 info lifecycle setprototypeof@1.0.3~preinstall: setprototypeof@1.0.3
+827 silly preinstall bytes@2.4.0 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\bytes-ec1eecb7
+828 info lifecycle bytes@2.4.0~preinstall: bytes@2.4.0
+829 silly preinstall iconv-lite@0.4.15 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6
+830 info lifecycle iconv-lite@0.4.15~preinstall: iconv-lite@0.4.15
+831 silly preinstall debug@2.6.1 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\debug-b9cf261c
+832 info lifecycle debug@2.6.1~preinstall: debug@2.6.1
+833 silly preinstall http-errors@1.6.1 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\http-errors-86f7aa2a
+834 info lifecycle http-errors@1.6.1~preinstall: http-errors@1.6.1
+835 silly preinstall qs@6.4.0 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\qs-d3b55372
+836 info lifecycle qs@6.4.0~preinstall: qs@6.4.0
+837 silly preinstall raw-body@2.2.0 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\raw-body-fe127203
+838 info lifecycle raw-body@2.2.0~preinstall: raw-body@2.2.0
+839 silly preinstall body-parser@1.17.1 C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\body-parser-fef3881f
+840 info lifecycle body-parser@1.17.1~preinstall: body-parser@1.17.1
+841 silly lifecycle ms@0.7.2~preinstall: no script for preinstall, continuing
+842 silly lifecycle setprototypeof@1.0.3~preinstall: no script for preinstall, continuing
+843 silly lifecycle bytes@2.4.0~preinstall: no script for preinstall, continuing
+844 silly lifecycle iconv-lite@0.4.15~preinstall: no script for preinstall, continuing
+845 silly lifecycle debug@2.6.1~preinstall: no script for preinstall, continuing
+846 silly lifecycle http-errors@1.6.1~preinstall: no script for preinstall, continuing
+847 silly lifecycle qs@6.4.0~preinstall: no script for preinstall, continuing
+848 silly lifecycle raw-body@2.2.0~preinstall: no script for preinstall, continuing
+849 silly lifecycle body-parser@1.17.1~preinstall: no script for preinstall, continuing
+850 silly doReverseSerial remove 0
+851 silly doSerial move 0
+852 silly doSerial finalize 9
+853 silly finalize C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\body-parser\node_modules\ms
+854 silly finalize C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\body-parser\node_modules\setprototypeof
+855 silly finalize C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\bytes
+856 silly finalize C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite
+857 verbose unlock done using C:\Users\Tanusha\AppData\Roaming\npm-cache\_locks\staging-4637b2edb36fad03.lock for C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging
+858 silly rollbackFailedOptional Starting
+859 silly rollbackFailedOptional Finishing
+860 silly runTopLevelLifecycles Finishing
+861 silly install printInstalled
+862 warn node-chat-app@1.0.0 No description
+863 verbose If you need help, you may report this error at:
+863 verbose     <https://github.com/npm/npm/issues>
+864 warn node-chat-app@1.0.0 No repository field.
+865 verbose If you need help, you may report this error at:
+865 verbose     <https://github.com/npm/npm/issues>
+866 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+866 verbose stack     at destStatted (C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+866 verbose stack     at C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:276:29
+866 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+866 verbose stack
+866 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+866 verbose stack     at Error (native)
+867 verbose cwd C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app
+868 error Windows_NT 10.0.14393
+869 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Tanusha\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "body-parser" "--save"
+870 error node v6.9.1
+871 error npm  v4.0.2
+872 error path C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6
+873 error code EPERM
+874 error errno -4048
+875 error syscall rename
+876 error Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+876 error     at destStatted (C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+876 error     at C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:276:29
+876 error     at FSReqWrap.oncomplete (fs.js:123:15)
+876 error
+876 error Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+876 error     at Error (native)
+876 error  { Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+876 error     at destStatted (C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+876 error     at C:\Users\Tanusha\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:276:29
+876 error     at FSReqWrap.oncomplete (fs.js:123:15)
+876 error
+876 error Error: EPERM: operation not permitted, rename 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\.staging\iconv-lite-baeb9df6' -> 'C:\Users\Tanusha\Documents\Work\Nodejs\node-chat-app\node_modules\iconv-lite'
+876 error     at Error (native) parent: 'node-chat-app' }
+877 error Please try running this command again as root/Administrator.
+878 verbose exit [ -4048, true ]
