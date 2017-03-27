@@ -14,15 +14,14 @@ describe('generateMessage', () => {
 });
 
 describe('generateLocationMessage', () => {
-  it('should generate correct location message object', () => {
-    var from = 'Jen';
-    var latitude = 1;
-    var longitude = 1;
+  it('should generate correct location object', () => {
+    var from = 'Deb';
+    var latitude = 15;
+    var longitude = 19;
+    var url = 'https://www.google.com/maps?q=15,19';
     var message = generateLocationMessage(from, latitude, longitude);
-    var url = 'https://www.google.com/maps?q=1,1';
 
     expect(message.createdAt).toBeA('number');
     expect(message).toInclude({from, url});
-    expect(url).toBe(`https://www.google.com/maps?q=${latitude},${longitude}`);
   });
 });
